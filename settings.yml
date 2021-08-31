@@ -9,7 +9,7 @@ username:
   default: "biskit"
 bio:
   type: string
-  default: "👋🏽 I woooofe Discourse 🎉 Welcome to my page!"
+  default: "👋🏽 Welcome to my page! I woooofe Discourse 🎉"
 badges:
   type: list
   default: "user;#A461EF;Lounge Lizard;/c/4|certificate;#E45735;Most Trusted;/c/3|heart;#808281;Site Addict;/c/2"
