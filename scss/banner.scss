@@ -1,0 +1,15 @@
+.card-banner {
+  display: none;
+  body.navigation-topics & {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    min-height: 350px;
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+  }
+}

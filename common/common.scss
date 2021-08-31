@@ -1,0 +1,16 @@
+@import 
+"animation", 
+"banner",
+"card", 
+"nested-list";
+
+$list-of-badges: nested-list($badges);
+@each $icon, $color, $title, $url in $list-of-badges {
+  .badge-section {
+    .user-card-badge-link {
+      .d-icon-#{$icon} {
+        color: #{$color};
+      }
+    }
+  }
+}

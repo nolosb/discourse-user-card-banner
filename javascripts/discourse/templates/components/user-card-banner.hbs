@@ -1,0 +1,55 @@
+<div class="wrap">
+  <div class="card-banner">
+    <div class="animation-content">
+      <div class="user-card show show-badges">
+        <div class="card-content">
+          <div class="card-row first-row">
+            <div class="user-card-avatar">
+            {{#if (theme-setting "avatar")}}
+              <img 
+                  alt width="120" height="120" class="avatar" src="{{theme-setting "avatar"}}" />
+            {{else}}
+              <img alt width="120" height="120" class="avatar" src="{{theme-setting "theme_uploads.avatar"}}" />
+            {{/if}}
+            </div>
+            <div class="names">
+              <h1 class="full-name">
+                <span class="name-username-wrapper">{{theme-setting "title"}}</span>
+              </h1>
+              <h2 class="username">
+                {{theme-setting "username"}}
+              </h2>
+            </div>
+                      </div>
+            <div class="card-row second-row">
+              <div class="bio">
+              {{html-safe (theme-setting "bio")}}
+              </div>
+            </div>
+          <div class="card-row">
+            <div class="badge-section">
+              <a class="user-card-badge-link badge-1" href="{{badge1.[3]}}">
+                <span class="user-badge">
+                  {{d-icon badge1.[0]}}
+                  <span class="badge-display-name">{{badge1.[2]}}</span>
+                </span>
+              </a>
+              <a class="user-card-badge-link badge-2" href="{{badge2.[3]}}">
+                <span class="user-badge">
+                  {{d-icon badge2.[0]}}
+                  <span class="badge-display-name">{{badge2.[2]}}</span>
+                </span>
+              </a>
+              <a class="user-card-badge-link badge-3" href="{{badge3.[3]}}">
+                <span class="user-badge">
+                  {{d-icon badge3.[0]}}
+                  <span class="badge-display-name">{{badge3.[2]}}</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+{
+  "name": "User-Card Banner",
+  "author": "Nolo Sabes",
+  "about_url": null,
+  "license_url": null,
+  "component": true,
+  "assets": {
+    "avatar": "assets/biskit.png"
+  }
+}
