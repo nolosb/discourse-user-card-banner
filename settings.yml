@@ -13,7 +13,13 @@ bio:
 badges:
   type: list
   default: "user;#A461EF;Lounge Lizard;/c/4|certificate;#E45735;Most Trusted;/c/3|heart;#808281;Site Addict;/c/2"
-  description: "Add three custom badges. Properties should be spearated by semicolon in this order: Icon; Icon color; Badge title; Link"
+  description:
+    en: "Add three custom badges. Properties should be spearated by semicolon in this order: Icon; Icon color; Badge title; Link"
+about_link:
+  type: string
+  default: "/about"
+  description:
+    en: "Where should '+ About me' link to?"
 svg_icons:
   type: "list"
   list_type: "compact"
@@ -23,4 +29,3 @@ svg_icons:
 animate_card:
   type: bool
   default: true
-
