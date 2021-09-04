@@ -15,11 +15,16 @@ badges:
   default: "user;#A461EF;Lounge Lizard;/c/4|certificate;#E45735;Most Trusted;/c/3|heart;#808281;Site Addict;/c/2"
   description:
     en: "Add three custom badges. Properties should be spearated by semicolon in this order: Icon; Icon color; Badge title; Link"
-about_link:
+more_badges_title:
+  type: string
+  default: "+ About"
+  description:
+    en: "Title of the 'more badges' button"
+more_badges_link:
   type: string
   default: "/about"
   description:
-    en: "Where should '+ About me' link to?"
+    en: "href link of the 'more badges' button"
 svg_icons:
   type: "list"
   list_type: "compact"
